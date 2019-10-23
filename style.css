@@ -53,7 +53,7 @@ body, html {
 
 /* FOOTER////////////////////////////////////////////////////////////// */
 
-.footer {
+.page-footer {
     position: fixed;
     left: 0;
     bottom: 0;
@@ -62,18 +62,18 @@ body, html {
     text-align: center;
 }
 
-.footer ul li{
-    margin: 1% 15% 0 15%;
+.page-footer ul li{
+    padding: 1% 8% 1% 8%;
 }
 
-.footer ul li a {
+.page-footer ul li a {
     color: rgb(128,0,43) !important;
     font-size: 85%;
     letter-spacing: .1rem;
     font-weight: 600;  
 }
 
-.footer ul li a:hover {
+.page-footer ul li a:hover {
     color: rgb(166,166,166)!important;
     font-weight: bold;
     text-decoration: none;
