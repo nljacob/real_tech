@@ -17,7 +17,7 @@ body, html {
     color: rgb(154,0,51) !important;
     font-size: 105%;
     letter-spacing: .2rem;
-    font-weight: 600;
+    font-weight: bold;
 }
 
 .navbar ul li a:hover {
