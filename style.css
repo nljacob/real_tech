@@ -39,7 +39,7 @@ body, html {
 .background-image h1{
     color: white;
     text-align: center;
-    padding-top: 10%;
+    padding-top: 20%;
     font-size: 360%;
     font-family: 'Oswald', sans-serif;
     letter-spacing: .3rem;
@@ -59,7 +59,7 @@ body, html {
     font-family: 'Oswald', sans-serif;
     text-align: center;
     padding: 5% 0 3% 0;
-    font-size: 360%;
+    font-size: 320%;
     font-family: 'Oswald', sans-serif;
     letter-spacing: .3rem;
     color: rgb(154,0,51)
@@ -68,11 +68,98 @@ body, html {
 .about-section .about-section-list{
     font-size: 130%;
     line-height: 210%;
-    padding-bottom: 5%;
+}
+
+/* CLIENTS SECTION//////////////////////////////////////////////////////// */
+.clients-section h1{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding: 5% 0 3% 0;
+    font-size: 320%;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .3rem;
+    color: rgb(154,0,51)
+}
+
+.clients-section .clients-section-list{
+    font-size: 130%;
+    line-height: 210%;
+}
+
+/* TECHNOLOGY SECTION////////////////////////////////////////////////// */
+.technology-section h1{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding: 5% 0 3% 0;
+    font-size: 320%;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .3rem;
+    color: rgb(154,0,51)
+}
+
+.technology-section h4{
+    text-align: center;
+    padding-bottom: 2%;
+    font-weight: bold;
+    letter-spacing: .1rem;
 }
 
 
+.technology-section .technology-section-list{
+    font-size: 130%;
+    line-height: 210%;
+    padding-bottom: 5%;
+}
 
+/* CONTACT SECTION////////////////////////////////////////////////// */
+.contact-section h1{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding: 5% 0 3% 0;
+    font-size: 320%;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .3rem;
+    color: rgb(154,0,51)
+}
+
+.contact-section h5{
+    text-align: center;
+    padding-bottom: 2%;
+    font-weight: bold;
+}
+
+/* INVESTORS PAGE////////////////////////////////////////////////// */
+.investors-page{
+    text-align: center;
+    padding-top: 10%;
+    font-size: 120%;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .3rem;
+    font-weight: bold;
+}
+
+#input-email, #input-password{
+    padding: 2% 0 1% 0;
+}
+
+.investors-page button{
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.investors-page input{
+    width: 40%;
+}
+
+.investors-page #account-signup{
+    color: rgb(154,0,51);
+    letter-spacing: 0;
+}
+
+.investors-page #account-signup a{
+    color: black;
+    text-decoration: underline;
+}
 
 /* FOOTER////////////////////////////////////////////////////////////// */
 
