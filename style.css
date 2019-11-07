@@ -12,13 +12,13 @@ body, html {
 .navbar ul li {
     /* margin: auto auto auto 8%; //for center navbar*/
     margin: auto auto auto auto;
-    padding-right: 9%;
+    padding-right: 7%;
 }
 
 .navbar ul li a {
     color: rgb(154,0,51) !important;
     font-size: 105%;
-    letter-spacing: .4rem;
+    letter-spacing: .2rem;
     font-weight: bold;
 }
 
