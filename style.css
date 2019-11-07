@@ -12,7 +12,7 @@ body, html {
 .navbar ul li {
     /* margin: auto auto auto 8%; //for center navbar*/
     margin: auto auto auto auto;
-    padding-right: 5%;
+    padding-right: 7%;
 }
 
 .navbar ul li a {
@@ -53,9 +53,30 @@ body, html {
     line-height: 200%;
 }
 
+
+/* ABOUT SECTION//////////////////////////////////////////////////////// */
+.about-section h1{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding: 5% 0 3% 0;
+    font-size: 360%;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .3rem;
+    color: rgb(154,0,51)
+}
+
+.about-section .about-section-list{
+    font-size: 130%;
+    line-height: 210%;
+    padding-bottom: 5%;
+}
+
+
+
+
 /* FOOTER////////////////////////////////////////////////////////////// */
 
-.page-footer {
+/* .page-footer {
     position: fixed;
     left: 0;
     bottom: 0;
@@ -79,4 +100,4 @@ body, html {
     color: rgb(166,166,166)!important;
     font-weight: bold;
     text-decoration: none;
-}
+} */
