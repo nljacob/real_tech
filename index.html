@@ -15,10 +15,10 @@
 
 <body>
   <!-- NAVBAR////////////////////////////////////////////////////////////// -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: white;">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: rgb(234, 234, 234);">
 
     <a class="navbar-brand" href="#">
-      <img src="assets/logo.png" width="40" height="40" alt="logo">
+      <img src="assets/logo_transparent.png" width="40" height="40" alt="logo">
     </a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -118,36 +118,6 @@
   </div>
 
 
-  <!-- CLIENTS SECTION/////////////////////////////////////////////////// -->
-
-  <div class="container clients-section">
-    <div class="row">
-      <div class="col-md">
-        <h1 id="clients-section">OUR CLIENTS</h1>
-      </div>
-    </div>
-    <div class="row clients-section-list">
-      <div class="col-md-6">
-        <ul>
-          <li>Architects</li>
-          <li>Property Managers</li>
-          <li>Contractors</li>
-          <li>Appraisers</li>
-        </ul>
-      </div>
-      <div class="col-md-6">
-        <ul>
-          <li>Realtors</li>
-          <li>Investors</li>
-          <li>Insurance Companies</li>
-          <li>Investment Advisors</li>
-          <li>Real Estate Analysts</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-
   <!-- TECHNOLOGY SECTION///////////////////////////////////////////////////// -->
 
   <div class="container technology-section">
@@ -162,7 +132,11 @@
       </div>
     </div>
 
-    <div class="row technology-section-list">
+    <div class="col-md-12">
+      <img src="assets/technology_graphic.png" alt="">
+    </div>
+
+    <!-- <div class="row technology-section-list">
       <div class="col-md-12">
         <ul>
           <li>Computer Vision – turning immeasurable into measurable</li>
@@ -171,6 +145,40 @@
           <li>Mobile Application – Bringing the most advanced real estate tech to every home</li>
           <li>Artificial Intelligence – Automating decisions with computer-assisted analysis</li>
           <li>Block chain – validating real estate data</li>
+        </ul>
+      </div>
+    </div> -->
+  </div>
+
+
+  <!-- CLIENTS SECTION/////////////////////////////////////////////////// -->
+
+  <div class="container clients-section">
+    <div class="row">
+      <div class="col-md">
+        <h1 id="clients-section">OUR CLIENTS</h1>
+      </div>
+    </div>
+    <div class="row clients-section-list">
+      <div class="col-md-4">
+        <ul>
+          <li>Architects</li>
+          <li>Property Managers</li>
+          <li>Contractors</li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul>
+          <li>Appraisers</li>
+          <li>Realtors</li>
+          <li>Investors</li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul>
+          <li>Insurance Companies</li>
+          <li>Investment Advisors</li>
+          <li>Real Estate Analysts</li>
         </ul>
       </div>
     </div>
@@ -187,16 +195,28 @@
     </div>
     <div class="row">
       <div class="col-md">
-        <h5>Name</h5>
-        <h5>Number</h5>
-        <h5>Email</h5>
+        <form action="">
+          <div class="input-name">*NAME:</div>
+          <input type="text" required>
+
+          <div class="input-email">*EMAIL:</div>
+          <input type="email" required><br>
+
+          <div class="input-number">NUMBER:</div>
+          <input type="tel"><br>
+
+          <div class="input-message">MESSAGE:</div>
+          <input id="input-message-field" type="text"><br> <br>
+
+          <button type="button" class="btn btn-dark">SUBMIT</button>
+        </form>
       </div>
     </div>
   </div>
 
   <!-- FOOTER////////////////////////////////////////////////////////////// -->
 
-  <!-- <footer class="page-footer font-small special-color-dark pt-4">
+  <footer class="page-footer font-small special-color-dark pt-4">
     <div class="container">
       <ul class="list-unstyled list-inline text-center">
         <li class="list-inline-item">
@@ -216,7 +236,7 @@
         </li>
       </ul>
     </div>
-  </footer> -->
+  </footer>
 
   <!-- JAVASCRIPT////////////////////////////////////////////////////////////// -->
 
