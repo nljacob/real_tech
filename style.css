@@ -17,6 +17,10 @@ input {
 
 /* NAVBAR////////////////////////////////////////////////////////////// */
 
+nav{
+    height: 70px;
+}
+
 .navbar ul li {
     /* margin: auto auto auto 8%; //for center navbar*/
     margin: auto auto auto auto;
@@ -79,27 +83,11 @@ input {
     line-height: 210%;
 }
 
-/* CLIENTS SECTION//////////////////////////////////////////////////////// */
-.clients-section h1{
-    font-family: 'Oswald', sans-serif;
-    text-align: center;
-    padding: 5% 0 3% 0;
-    font-size: 320%;
-    font-family: 'Oswald', sans-serif;
-    letter-spacing: .3rem;
-    color: rgb(154,0,51)
-}
-
-.clients-section .clients-section-list{
-    font-size: 130%;
-    line-height: 210%;
-}
-
 /* TECHNOLOGY SECTION////////////////////////////////////////////////// */
 .technology-section h1{
     font-family: 'Oswald', sans-serif;
     text-align: center;
-    padding: 5% 0 3% 0;
+    margin: 10% 0 3% 0;
     font-size: 320%;
     font-family: 'Oswald', sans-serif;
     letter-spacing: .3rem;
@@ -110,9 +98,8 @@ input {
     text-align: center;
     padding-bottom: 2%;
     font-weight: bold;
-    letter-spacing: .1rem;
+    letter-spacing: .05rem;
 }
-
 
 .technology-section .technology-section-list{
     font-size: 130%;
@@ -122,16 +109,42 @@ input {
 
 .technology-section img{
     display: block;
-    height: 450px;
+    height: 650px;
     width: auto;
     margin: 2% auto 2% auto;
 }
+
+
+
+/* CLIENTS SECTION//////////////////////////////////////////////////////// */
+.clients-section h1{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    margin: 10% 0 3% 0;
+    font-size: 320%;
+    letter-spacing: .3rem;
+    color: rgb(154,0,51)
+}
+
+.clients-section h4{
+    text-align: center;
+    padding-bottom: 2%;
+    font-weight: bold;
+    letter-spacing: .05rem;
+    line-height: 160%;
+}
+
+.clients-section .clients-section-list{
+    font-size: 130%;
+    line-height: 210%;
+}
+
 
 /* CONTACT SECTION////////////////////////////////////////////////// */
 .contact-section h1{
     font-family: 'Oswald', sans-serif;
     text-align: center;
-    padding: 5% 0 3% 0;
+    margin: 10% 0 3% 0;
     font-size: 320%;
     font-family: 'Oswald', sans-serif;
     letter-spacing: .3rem;
