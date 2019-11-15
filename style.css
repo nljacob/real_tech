@@ -15,7 +15,7 @@ input {
     height: 150px; */
   }
 
-  #main{
+.main{
     min-height: 100%;
     position:relative;
   }
@@ -67,7 +67,7 @@ nav{
     color: white;
     text-align: center;
     padding: 3% 22% 0 22%;
-    font-size: 120%;
+    font-size: 170%;
     line-height: 200%;
 }
 
@@ -83,10 +83,18 @@ nav{
     color: rgb(154,0,51)
 }
 
-.about-section .about-section-list{
+.about-section .mission-statement{
+    font-size: 140%;
+    line-height: 190%;
+    font-weight: bold;
+    letter-spacing: .05rem;
+}
+
+
+/* .about-section .about-section-list{
     font-size: 130%;
     line-height: 210%;
-}
+} */
 
 /* TECHNOLOGY SECTION////////////////////////////////////////////////// */
 .technology-section h1{
