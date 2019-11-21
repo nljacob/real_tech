@@ -104,7 +104,7 @@ nav{
     font-size: 320%;
     font-family: 'Oswald', sans-serif;
     letter-spacing: .3rem;
-    color: rgb(154,0,51)
+    color: rgb(154,0,51);
 }
 
 .technology-section h4{
@@ -153,6 +153,31 @@ nav{
     margin-bottom: 4%;
 }
 
+.clients-section .client-icons{
+    text-align: center;
+}
+
+.clients-section .client-icon-img{
+    padding-bottom: 3%;
+    height: 5rem;
+    width: auto;
+}
+
+.clients-section .client-title{
+    color:rgb(154,0,51);
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
+
+.clients-section .client-icon-row{
+    margin-bottom: 5%;
+}
+
+.clients-section .client-icon-col{
+    padding-left: 4%;
+    padding-right: 4%;
+}
 
 /* CONTACT SECTION////////////////////////////////////////////////// */
 .contact-section h1{
