@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Real Tech Software Solutions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Raleway&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+
+<body>
+  <!-- NAVBAR////////////////////////////////////////////////////////////// -->
+  <div class="main">
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: rgb(234, 234, 234);">
+
+      <a class="navbar-brand" href="#">
+        <img src="assets/logo_transparent.png" width="30" height="40" alt="logo">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#about-section">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#technology-section">TECHNOLOGY</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container contact-section">
+      <div class="row">
+        <div class="col-md">
+          <h1 id="contact-section">CONTACT US</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md">
+          <form action="/signup" method="POST">
+            <div class="input-name">*NAME:</div>
+            <input type="text" name="firstName" id="first-name" required>
+
+            <div class="input-email">*EMAIL:</div>
+            <input type="email" name="email" id="email" required><br>
+
+            <div class="input-number">NUMBER:</div>
+            <input type="tel" name="number" id="number"><br>
+
+            <div class="input-message">MESSAGE:</div>
+            <input id="input-message-field" type="text" name="message" id="message">
+            <br><br>
+
+            <button type="button" class="btn btn-dark">SUBMIT</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <!-- INVESTORS PAGE //////////////////////////////////////////////////// -->
+    <!-- 
+        <div class="container investors-page">
+            <div class="row">
+                <div class="col-md">
+                    <form action="">
+                        <div class="input-email">EMAIL:</div>
+                        <input type="text">
+
+                        <div class="input-password">PASSWORD:</div>
+                        <input type="text"><br>
+
+                        <button type="button" class="btn btn-dark">SUBMIT</button>
+                        <div id="account-signup">Don't have an account? Sign up <a href="#">here.</a> </div>
+                    </form>
+                </div>
+            </div>
+        </div> -->
+  </div>
+
+
+  <!-- FOOTER////////////////////////////////////////////////////////////// -->
+  <footer class="footer fixed-bottom page-footer font-small special-color-dark pt-4">
+    <p>Copyright &copy; 2019 Real Tech Software Solutions
+    </p>
+
+    <!-- document.write(new Date().getFullYear() -->
+    <!-- <div class="container">
+          <ul class="list-unstyled list-inline text-center">
+            <li class="list-inline-item">
+              <a class="btn-floating btn-fb mx-1" href="#">
+                CONTACT
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-tw mx-1" href="#">
+                PRESS
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-gplus mx-1" href="#">
+                CAREERS
+              </a>
+            </li>
+          </ul>
+        </div> -->
+  </footer>
+
+
+  <!-- JAVASCRIPT////////////////////////////////////////////////////////////// -->
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+
+</body>
+
+</html>
