@@ -196,3 +196,39 @@ body, html {
     padding-bottom: 2%;
     margin-top: 4%;
 }
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 404px){
+    .background-image h1{
+        margin-top: 15%;
+        font-size: 250%;
+    }
+    .background-image h5{
+        font-size: 130%;
+        /* margin-top: 8%; */
+    }
+    .mission-statement p{
+        font-size: 95%;
+        line-height: 170%;
+    }
+    .ribbon-1 h5{
+        font-size: 140%;
+        padding-top: 8%;
+    }
+    .technology-section h4{
+        font-size: 125%;
+        line-height: 150%
+    }
+    .ribbon-2 h5{
+        font-size: 140%;
+        padding-top: 7%;
+    }
+    .clients-section h4{
+        font-size: 120%;
+    }
+    #contact-section{
+        margin-top: 25%;
+        margin-bottom: 15%;
+    }
+
+}
