@@ -1,97 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Real Tech Software Solutions</title>
-    <link rel="icon" type="image/png" href="assets/favicon.png">
-    <link href="https://fonts.googleapis.com/css?family=Oswald|Raleway&display=swap" rel="stylesheet">  
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Real Tech Software Solutions</title>
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Raleway&display=swap" rel="stylesheet">  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
 </head>
 <body>
 
 <!-- NAVBAR -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">
-            <img src="assets/logo_transparent.png" width="26" height="36" alt="">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item px-2">
-                    <a class="nav-link" href="index.html">HOME</a>
-                </li>
-            <li class="nav-item px-2">
-                    <a class="nav-link" href="index.html#about-section">ABOUT</a>
-                </li>
-            <li class="nav-item px-2">
-                    <a class="nav-link" href="index.html#technology-section">TECHNOLOGY</a>
-                </li>
-            <li class="nav-item px-2">
-                    <a class="nav-link" href="contact.html">CONTACT</a>
-                </li>
-          </ul>
-        </div>
-      </nav>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <img src="assets/logo_transparent.png" width="26" height="36" alt="">
+    </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item px-2">
+          <a class="nav-link" href="index.html">HOME</a>
+        </li>
+        <li class="nav-item px-2">
+          <a class="nav-link" href="index.html#about-section">ABOUT</a>
+        </li>
+        <li class="nav-item px-2">
+          <a class="nav-link" href="index.html#technology-section">TECHNOLOGY</a>
+        </li>
+        <li class="nav-item px-2">
+          <a class="nav-link" href="contact.html">CONTACT</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
     
 <!-- CONTACT PAGE -->
-    <div class="container contact-section">
-        <div class="row">
-          <div class="col-md">
-            <h1 id="contact-section">CONTACT US</h1>
-          </div>
-        </div>
-        <div class="row">
-            <div class="col-md-3"></div>
-            <div class="col-md-6">
-                <form action="/signup" method="POST">
-                    <div class="form-group">
-                        <label for="exampleFormControlInput1">NAME*</label>
-                        <input type="text" class="form-control" name="name" id="form-name">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlInput1">EMAIL*</label>
-                        <input type="email" class="form-control" name="email">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlInput1">PHONE NUMBER</label>
-                        <input type="tel" class="form-control" name="phonenumber">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlTextarea1">MESSAGE</label>
-                        <textarea class="form-control" name="message" rows="3"></textarea>
-                    </div>
-                    <br>
-                    <div class="col text-center">
-                        <button type="submit" class="btn btn-dark">SUBMIT</button>
-                    </div>
-                </form>
-            </div>
-            <div class="col-md-3"></div>
-        </div>
+  <div class="container contact-section">
+    <div class="row">
+      <div class="col-md">
+        <h1 id="contact-section">CONTACT US</h1>
       </div>
+    </div>
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+          <form action="/signup" method="POST">
+            <div class="form-group">
+              <label for="form-name">NAME*</label>
+              <input type="text" class="form-control" name="name" id="form-name">
+            </div>
+            <div class="form-group">
+              <label for="form-email">EMAIL*</label>
+              <input type="email" class="form-control" name="email" id="form-email">
+            </div>
+            <div class="form-group">
+              <label for="form-number">PHONE NUMBER</label>
+              <input type="tel" class="form-control" name="phonenumber" id="form-number">
+            </div>
+            <div class="form-group">
+              <label for="form-message">MESSAGE</label>
+              <textarea class="form-control" name="message" rows="3" id="form-message"></textarea>
+            </div>
+            <br>
+            <div class="col text-center">
+              <button type="submit" class="btn btn-dark">SUBMIT</button>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+  </div>
     
-
 <!-- FOOTER -->
-    <nav class="navbar bottom navbar-light bg-light mx-auto footer">
-        <ul class="nav navbar-nav mx-auto">
-            <li class="nav-item">
-                Copyright &copy;
-                <script type="text/javascript"> document.write(new Date().getFullYear());</script>
-                Real Tech Software Solutions
-            </li>
-        </ul>
-    </nav>
-
+  <nav class="navbar bottom navbar-light bg-light mx-auto footer">
+    <ul class="nav navbar-nav mx-auto">
+      <li class="nav-item">
+        Copyright &copy;
+        <script type="text/javascript"> document.write(new Date().getFullYear());</script>
+        Real Tech Software Solutions
+      </li>
+    </ul>
+  </nav>
 
 <!-- JAVASCRIPT -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="app.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
 </body>
 </html>
