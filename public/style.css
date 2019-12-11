@@ -166,6 +166,42 @@ body, html {
     letter-spacing: .2rem;
 }
 
+/* TEAM PAGE */
+#team-image{
+    margin-top: 25%;
+    height: 500px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#team-page-header{
+    margin-top: 20%;
+    color: rgb(154,0,51);
+    font-size: 200%;
+    text-align: center;
+}
+
+#team-page-list{
+    font-size: 120%;
+    padding-right: 8%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#team-page-list li{
+    margin-bottom: 2.5%;
+}
+
+/* COMPUTER VISION PAGE */
+#cv-title{
+    margin-top: 20%;
+}
+#cv-text{
+    margin-top: 20%;
+    font-size: 150%;
+}
+
+
 /* CONTACT PAGE */
 .contact-section h1{
     font-family: 'Oswald', sans-serif;
