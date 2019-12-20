@@ -19,10 +19,10 @@ app.post('/signup', (req, res) => {
     console.log('First Name: ' + firstName + ' Number: ' + number + ' Email: ' + email);
 
     // Make sure fields are filled
-    if (!firstName || !email) {
-        res.redirect('/fail.html');
-        return;
-    }
+    // if (!firstName || !email) {
+    //     res.redirect('/fail.html');
+    //     return;
+    // }
 
     // Construct req data
     const data = {
@@ -51,15 +51,16 @@ app.post('/signup', (req, res) => {
     };
 
     request(options, (err, response, body) => {
-        if (err) {
-            res.redirect('/fail.html');
-        } else {
-            if (response.statusCode === 200) {
-                res.redirect('/success.html');
-            } else {
-                res.redirect('/fail.html');
-            }
-        }
+        res.redirect('/success.html');
+        // if (err) {
+        //     res.redirect('/fail.html');
+        // } else {
+        //     if (response.statusCode === 200) {
+        //         res.redirect('/success.html');
+        //     } else {
+        //         res.redirect('/fail.html');
+        //     }
+        // }
     });
 });
 
