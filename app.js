@@ -3,44 +3,36 @@ const request = require('request');
 const bodyParser = require('body-parser');
 const path = require('path');
 const app = express();
+require('dotenv').config();
 const PORT = process.env.PORT || 3000;
 const MAILCHIMP_URL = process.env.MAILCHIMP_URL;
 const MAILCHIMP_AUTHORIZATION = process.env.MAILCHIMP_AUTHORIZATION;
 
-// Bodyparser Middleware
 app.use(bodyParser.urlencoded({ extended: true }));
 
-// Static folder
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Signup Route
-app.post('/signup', (req, res) => {
-    const { firstName, number, email } = req.body;
-    console.log('First Name: ' + firstName + ' Number: ' + number + ' Email: ' + email);
+app.post('/signup', function(req, res) {
+    const { name, email, phonenumber, message } = req.body;
+    console.log(`Name: ${name}, Email: ${email}, Phone Number: ${phonenumber}, Message: ${message}`);
 
-    // Make sure fields are filled
-    // if (!firstName || !email) {
-    //     res.redirect('/fail.html');
-    //     return;
-    // }
-
-    // Construct req data
     const data = {
         members: [
             {
                 email_address: email,
                 status: 'subscribed',
                 merge_fields: {
-                    FNAME: firstName,
+                    FNAME: name,
                     EMAIL: email,
-                    NUMBER: number
+                    PHONE: phonenumber,
+                    MESSAGE: message
                 }
             }
         ]
     };
 
     const postData = JSON.stringify(data);
-
+    
     const options = {
         url: MAILCHIMP_URL,
         method: 'POST',
@@ -49,18 +41,21 @@ app.post('/signup', (req, res) => {
         },
         body: postData
     };
+    
+    request(options, function(err, response, body){
+        if(err){
+            console.log(err);
+            res.redirect('/fail.html')
+        }
+        else{
+            if(response.statusCode === 200){
+                res.redirect('/success.html')
+            }
+            else{
+                res.redirect('/fail.html')
+            }
+        }
 
-    request(options, (err, response, body) => {
-        res.redirect('/success.html');
-        // if (err) {
-        //     res.redirect('/fail.html');
-        // } else {
-        //     if (response.statusCode === 200) {
-        //         res.redirect('/success.html');
-        //     } else {
-        //         res.redirect('/fail.html');
-        //     }
-        // }
     });
 });
 
