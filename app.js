@@ -37,7 +37,7 @@ app.post('/signup', function(req, res) {
         url: MAILCHIMP_URL,
         method: 'POST',
         headers: {
-            Authorization: MAILCHIMP_AUTHORIZATION
+            Authorization: 'auth ' + MAILCHIMP_AUTHORIZATION
         },
         body: postData
     };
