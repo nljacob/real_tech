@@ -48,6 +48,7 @@ app.post('/signup', function(req, res) {
             res.redirect('/fail.html')
         }
         else{
+            console.log(response.statusCode);
             if(response.statusCode === 200){
                 res.redirect('/success.html')
             }
